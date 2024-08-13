@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fog Shop</title>
+  <link rel="stylesheet" type="text/css" href="shoporder.css">
+</head>
+<body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="shop.html">Home</a></li>
+          <li><a href="verification.php">Register</a></li>
+          <li><a href="login.php">Log In</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="shoporder.php" method="post">
+              <h2>Order Form</h2>
+      <label for="inventoryProduct">Product:</label>
+      <input type="text" id="inventoryProduct" name="inventoryProduct" required><br>
+
+      <label for="customersFirstname">First Name:</label>
+      <input type="text" id="customersFirstname" name="customersFirstname" required><br>
+
+      <label for="customersLastname">Last Name:</label>
+      <input type="text" id="customersLastname" name="customersLastname" required><br>
+
+      <label for="ordersTotal">Order Quantity:</label>
+      <input type="text" id="ordersTotal" name="ordersTotal" required><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
